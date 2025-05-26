@@ -22,7 +22,7 @@ export default function BisnisJourney() {
     },
     {
       id: 2,
-      title: "Gantungan Kunci Flanel",
+      title: "Gantungan Kunci Flanel (Key Craft)",
       role: "Chief Operation Officer (COO)",
       shortDesc: "Kreasi gantungan kunci dari bahan kain flanel yang unik",
       fullDesc: "Proyek ini dilaksanakan pada semester pertama untuk memenuhi tugas dari Ibu Mira Nurfitriya, S.Pd., M.Sc. Peran saya adalah sebagai Chief Operation Officer (COO), bertugas mencari bahan baku serta memproduksi barang tersebut.",
@@ -70,7 +70,7 @@ export default function BisnisJourney() {
     },
     {
       id: 5,
-      title: "Pouch Multifungsi",
+      title: "Pouch Multifungsi (Upcycling)",
       role: "Chief Design Officer (CDO)",
       shortDesc: "Tas multifungsi dari kain perca yang berkelanjutan",
       fullDesc: "Pada proyek ini, saya menjabat sebagai Chief Design Officer (CDO) atau Chief Creative Officer (CCO). Saya merancang desain tas serta menambahkan elemen fungsional. Proyek ini merupakan bagian dari tugas mata kuliah Mentoring yang diampu oleh Bapak Dr. Nandang, S.A.P., M.A.P.",
