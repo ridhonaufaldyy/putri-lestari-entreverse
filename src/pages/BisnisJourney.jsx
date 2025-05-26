@@ -89,10 +89,10 @@ export default function BisnisJourney() {
       title: "Kaos Inovatif",
       role: "Production Assistant",
       shortDesc: "Pakaian transformable dengan desain multifungsi",
-      fullDesc: "Mengembangkan produk pakaian inovatif seperti kaos unisex yang dapat diubah menjadi setelan baju dan rok, serta vest yang bisa menjadi tote bag. Saya membantu proses produksi dan penyediaan bahan.",
-      image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=1950&auto=format&fit=crop",
+      fullDesc: "Mengembangkan produk pakaian inovatif seperti kaos unisex yang dapat diubah menjadi setelan baju dan rok, serta vest yang bisa menjadi tote bag. Saya membantu proses produksi dan penyediaan bahan.",      image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=1950&auto=format&fit=crop",
       tag: "Fashion",
       year: "2024",
+      driveLink: "https://drive.google.com/drive/folders/xxx-kaos",
       duties: [
         "Pengadaan bahan produksi",
         "Koordinasi dengan penjahit",
@@ -171,14 +171,27 @@ export default function BisnisJourney() {
               </div>
               <p className="text-lg text-blue-600 mb-4">{selectedProject.role}</p>
               <p className="text-gray-600 mb-6">{selectedProject.fullDesc}</p>
-              
-              <div className="bg-blue-50 rounded-lg p-6">
+                <div className="bg-blue-50 rounded-lg p-6 mb-6">
                 <h3 className="text-lg font-semibold text-blue-700 mb-4">Tanggung Jawab:</h3>
                 <ul className="list-disc list-inside space-y-2">
                   {selectedProject.duties.map((duty, idx) => (
                     <li key={idx} className="text-gray-600">{duty}</li>
                   ))}
                 </ul>
+              </div>
+              
+              <div className="flex justify-center">
+                <a
+                  href={selectedProject.driveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-blue-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-600 transform transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                >
+                  <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/>
+                  </svg>
+                  Lihat Detail Project di Drive
+                </a>
               </div>
             </div>
           </div>

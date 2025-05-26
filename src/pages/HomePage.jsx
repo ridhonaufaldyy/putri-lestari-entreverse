@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import profileImage from '../assets/profile-putri.jpeg';
 
 export default function HomePage() {
   return (
@@ -53,7 +54,7 @@ export default function HomePage() {
             <div className="order-2 md:order-1">
               <div className="relative group">
                 <img 
-                  src=""
+                  src={profileImage}
                   alt="Putri Lestari"
                   className="rounded-2xl shadow-2xl w-full max-w-md mx-auto transform transition-all duration-500 group-hover:scale-[1.02]"
                 />
