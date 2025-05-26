@@ -1,5 +1,14 @@
 import { useState } from "react";
 
+import angkot from "../assets/angkot.JPG";
+import inovasiKaos from "../assets/inovasi_kaos.JPG";
+import keycraft from "../assets/keycraft.jpg";
+import reBottle from "../assets/rebottle.jpg";
+import salak from "../assets/salak.jpg";
+import Upcycling from "../assets/upcycling.jpg";
+
+
+
 export default function BisnisJourney() {
   const [selectedProject, setSelectedProject] = useState(null);
   const projects = [
@@ -10,7 +19,7 @@ export default function BisnisJourney() {
       shortDesc: "Mengolah limbah kulit salak menjadi minuman sehat inovatif",
       fullDesc: "Merupakan bisnis pertama yang saya jalani saat masa orientasi. Dalam proyek ini, saya berperan sebagai Chief Financial Officer (CFO) bersama rekan saya Wilda, dengan tanggung jawab mengelola data keuangan, mencatat transaksi pembelian bahan, serta membuat laporan keuangan.",
       driveLink: "https://drive.google.com/drive/folders/1LDrezKJr21fKL6nSbL3gpLvfPneXuub5",
-      image: "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?q=80&w=1974&auto=format&fit=crop",
+      image:salak,
       tag: "Food & Beverage",
       year: "2023",
       duties: [
@@ -29,6 +38,7 @@ export default function BisnisJourney() {
       tag: "Handcraft",
       year: "2023",
       driveLink: "https://drive.google.com/drive/folders/1LKxAHZHNjNrNhGJwdjFMngKqHWfjVN4-",
+      image:keycraft,
       duties: [
         "Pencarian dan pengadaan bahan baku",
         "Mengelola proses produksi",
@@ -45,6 +55,7 @@ export default function BisnisJourney() {
       tag: "Digital Business",
       year: "2023",
       driveLink: "https://drive.google.com/drive/folders/1LUwX_XWccox2zpmB9ML_OMFHdF1AoArv",
+      image:reBottle,
       duties: [
         "Pembuatan mockup produk",
         "Persiapan dan pelaksanaan pitching",
@@ -61,6 +72,7 @@ export default function BisnisJourney() {
       tag: "Platform Digital",
       year: "2024",
       driveLink: "https://drive.google.com/drive/folders/1LO2wdrrg4aptZS0F29rRsX-ryfgCEqAA",
+      image:angkot,
       duties: [
         "Pengembangan konsep platform",
         "Analisis kebutuhan pengguna",
@@ -77,6 +89,7 @@ export default function BisnisJourney() {
       tag: "Fashion",
       year: "2024",
       driveLink: "https://drive.google.com/drive/folders/1LEFCbtNjsS61tY3oVAoC_Qi7n2uy3toV",
+      image:Upcycling,
       duties: [
         "Perancangan desain produk",
         "Pengembangan fitur fungsional",
@@ -93,6 +106,7 @@ export default function BisnisJourney() {
       tag: "Fashion",
       year: "2024",
       driveLink: "https://drive.google.com/drive/folders/1LOQeF1BGmsbKVXq68opodfSKSkwL-oXO",
+      image:inovasiKaos,
       duties: [
         "Pengadaan bahan produksi",
         "Koordinasi dengan penjahit",
