@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export default function BisnisJourney() {
   const [selectedProject, setSelectedProject] = useState(null);
-
   const projects = [
     {
       id: 1,
@@ -10,6 +9,7 @@ export default function BisnisJourney() {
       role: "Chief Financial Officer (CFO)",
       shortDesc: "Mengolah limbah kulit salak menjadi minuman sehat inovatif",
       fullDesc: "Merupakan bisnis pertama yang saya jalani saat masa orientasi. Dalam proyek ini, saya berperan sebagai Chief Financial Officer (CFO) bersama rekan saya Wilda, dengan tanggung jawab mengelola data keuangan, mencatat transaksi pembelian bahan, serta membuat laporan keuangan.",
+      driveLink: "https://drive.google.com/drive/folders/xxx-teh-salak",
       image: "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?q=80&w=1974&auto=format&fit=crop",
       tag: "Food & Beverage",
       year: "2023",
@@ -25,10 +25,10 @@ export default function BisnisJourney() {
       title: "Gantungan Kunci Flanel (Key Craft)",
       role: "Chief Operation Officer (COO)",
       shortDesc: "Kreasi gantungan kunci dari bahan kain flanel yang unik",
-      fullDesc: "Proyek ini dilaksanakan pada semester pertama untuk memenuhi tugas dari Ibu Mira Nurfitriya, S.Pd., M.Sc. Peran saya adalah sebagai Chief Operation Officer (COO), bertugas mencari bahan baku serta memproduksi barang tersebut.",
-      image: "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?q=80&w=1000&auto=format&fit=crop",
+      fullDesc: "Proyek ini dilaksanakan pada semester pertama untuk memenuhi tugas dari Ibu Mira Nurfitriya, S.Pd., M.Sc. Peran saya adalah sebagai Chief Operation Officer (COO), bertugas mencari bahan baku serta memproduksi barang tersebut.",      image: "https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?q=80&w=1000&auto=format&fit=crop",
       tag: "Handcraft",
       year: "2023",
+      driveLink: "https://drive.google.com/drive/folders/xxx-key-craft",
       duties: [
         "Pencarian dan pengadaan bahan baku",
         "Mengelola proses produksi",
@@ -41,10 +41,10 @@ export default function BisnisJourney() {
       title: "Re-bottle Craft",
       role: "Creative Team",
       shortDesc: "Mengubah sampah botol plastik menjadi produk bernilai tinggi",
-      fullDesc: "Proyek ini merupakan tugas dari mata kuliah yang diasuh oleh Bapak Ismail Yusup, ST., MBA., MOS., CIPE., CDTE. Kami menciptakan ide bisnis berbasis digital yang mengolah sampah botol plastik menjadi produk bernilai. Saya dan tim belajar membuat mockup produk dan melakukan pitching ide bisnis dengan baik.",
-      image: "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=1974&auto=format&fit=crop",
+      fullDesc: "Proyek ini merupakan tugas dari mata kuliah yang diasuh oleh Bapak Ismail Yusup, ST., MBA., MOS., CIPE., CDTE. Kami menciptakan ide bisnis berbasis digital yang mengolah sampah botol plastik menjadi produk bernilai. Saya dan tim belajar membuat mockup produk dan melakukan pitching ide bisnis dengan baik.",      image: "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?q=80&w=1974&auto=format&fit=crop",
       tag: "Digital Business",
       year: "2023",
+      driveLink: "https://drive.google.com/drive/folders/xxx-rebottle",
       duties: [
         "Pembuatan mockup produk",
         "Persiapan dan pelaksanaan pitching",
@@ -57,10 +57,10 @@ export default function BisnisJourney() {
       title: "Klik Angkot",
       role: "Product Manager",
       shortDesc: "Platform pemesanan dan penyewaan angkot online",
-      fullDesc: "Kami mengembangkan platform 'Klik Angkot' untuk memudahkan pemesanan dan penyewaan angkot secara online. Proyek ini menggabungkan teknologi dengan transportasi tradisional untuk memberikan solusi modern bagi masyarakat.",
-      image: "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?q=80&w=1972&auto=format&fit=crop",
+      fullDesc: "Kami mengembangkan platform 'Klik Angkot' untuk memudahkan pemesanan dan penyewaan angkot secara online. Proyek ini menggabungkan teknologi dengan transportasi tradisional untuk memberikan solusi modern bagi masyarakat.",      image: "https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?q=80&w=1972&auto=format&fit=crop",
       tag: "Platform Digital",
       year: "2024",
+      driveLink: "https://drive.google.com/drive/folders/xxx-klik-angkot",
       duties: [
         "Pengembangan konsep platform",
         "Analisis kebutuhan pengguna",
@@ -73,10 +73,10 @@ export default function BisnisJourney() {
       title: "Pouch Multifungsi (Upcycling)",
       role: "Chief Design Officer (CDO)",
       shortDesc: "Tas multifungsi dari kain perca yang berkelanjutan",
-      fullDesc: "Pada proyek ini, saya menjabat sebagai Chief Design Officer (CDO) atau Chief Creative Officer (CCO). Saya merancang desain tas serta menambahkan elemen fungsional. Proyek ini merupakan bagian dari tugas mata kuliah Mentoring yang diampu oleh Bapak Dr. Nandang, S.A.P., M.A.P.",
-      image: "https://images.unsplash.com/photo-1602532305019-3dbbd482dae9?q=80&w=1000&auto=format&fit=crop",
+      fullDesc: "Pada proyek ini, saya menjabat sebagai Chief Design Officer (CDO) atau Chief Creative Officer (CCO). Saya merancang desain tas serta menambahkan elemen fungsional. Proyek ini merupakan bagian dari tugas mata kuliah Mentoring yang diampu oleh Bapak Dr. Nandang, S.A.P., M.A.P.",      image: "https://images.unsplash.com/photo-1602532305019-3dbbd482dae9?q=80&w=1000&auto=format&fit=crop",
       tag: "Fashion",
       year: "2024",
+      driveLink: "https://drive.google.com/drive/folders/xxx-pouch",
       duties: [
         "Perancangan desain produk",
         "Pengembangan fitur fungsional",

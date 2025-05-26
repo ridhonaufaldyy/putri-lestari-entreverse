@@ -53,7 +53,7 @@ export default function HomePage() {
             <div className="order-2 md:order-1">
               <div className="relative group">
                 <img 
-                  src="https://plus.unsplash.com/premium_photo-1747375615029-515941ee7a99?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D"
+                  src=""
                   alt="Putri Lestari"
                   className="rounded-2xl shadow-2xl w-full max-w-md mx-auto transform transition-all duration-500 group-hover:scale-[1.02]"
                 />
