@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar";
 import { useEffect } from "react";
+import profileImage from '../assets/profile-putri.jpeg';
+import { Link } from "react-router-dom";
 
 export default function ProfilPage() {
   useEffect(() => {
@@ -37,7 +39,7 @@ export default function ProfilPage() {
               <div className="order-1 lg:order-2">
                 <div className="relative">
                   <img 
-                    src="https://plus.unsplash.com/premium_photo-1747375615029-515941ee7a99?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D"
+                    src={profileImage}
                     alt="Putri Lestari"
                     className="w-full rounded-2xl shadow-2xl transform hover:scale-[1.02] transition-all duration-500"
                   />
